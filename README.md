@@ -1,5 +1,8 @@
 # VJ20.1_Form_Validator
 
+![image](https://github.com/itisdanish/VJ20.1_Form_Validator/assets/65316644/2e56c2d3-5717-41fc-8715-0ed181088ada)
+
+
 ## Description
 
 FormShield is a lightweight form validation web application designed to enhance user experience by ensuring the correctness of user input before form submission. Built with HTML, CSS, and JavaScript, FormShield provides essential validation for username, email, and password fields, offering error feedback and success messages to guide users through the input process effectively.
