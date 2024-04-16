@@ -18,19 +18,13 @@ function showSuccess(input){
     formControl.className = 'form-control success'
 }
 
-//Check Required Fields
-function checkRequired(inputArr){
-    inputArr.forEach(function(input){
-        if(input.value.trim()=== ''){
-            showError(input, `${input.id} is Required`)
-        } else {
-            showSuccess(input)
-        }
-    })
-}
 
 // Event Listners
 form.addEventListener('submit',function(e){
     e.preventDefault();
-    checkRequired([username, email, password, password2]);
+    if(username.value== ''){
+        showError(username,'Username is Required');
+    }else{
+        showSuccess(username)
+    }
 });
